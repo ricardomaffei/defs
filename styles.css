@@ -1,4 +1,3 @@
-
             /* Elegant Title Section Styles */
             #elegant-title {
                 background: linear-gradient(135deg, #ffffff, #eaeaea);
@@ -290,4 +289,42 @@
             }
 
             /* Media Query for 300px-400px screens */
-           
+            @media (max-width: 400px) and (min-width: 300px) {
+                #elegant-title h1 {
+                    font-size: 24px; /* Smaller font for very small screens */
+                }
+
+                .logo-text {
+                    font-size: 20px; /* Adjust logo size */
+                }
+
+                #call-section p {
+                    font-size: 1.2em; /* Reduce text size */
+                }
+
+                .call-button, .whatsapp-button {
+                    font-size: 1.2em;
+                    padding: 8px 15px; /* Adjust button padding */
+                }
+
+                .product-list {
+                    flex-direction: column; /* Stack products vertically */
+                }
+
+                .product {
+                    width: 100%; /* Full width for products */
+                }
+
+                .social-icons a {
+                    font-size: 1.2em; /* Resize social icons */
+                    padding: 8px;
+                }
+
+                #footer-section .footer-content h4 {
+                    font-size: 1.2em;
+                }
+
+                #footer-section p {
+                    font-size: 0.9em;
+                }
+            }
